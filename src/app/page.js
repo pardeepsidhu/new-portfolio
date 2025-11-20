@@ -13,6 +13,7 @@ export default function Home() {
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" },
   ];
 
   return (
@@ -31,7 +32,7 @@ export default function Home() {
       />
 
       {/* Tabs */}
-      <div className="sticky top-3 z-50 flex justify-center w-full px-3">
+      <div className="fixed top-3 z-50 flex justify-center w-full px-3">
         {/* Mobile Dropdown */}
         <div className="relative w-full sm:hidden z-50">
           <button
@@ -49,7 +50,7 @@ export default function Home() {
           </button>
 
           <div
-            className={`absolute left-0 right-0 mt-2 bg-black/90 border border-white/20 rounded-sm shadow-xl overflow-hidden backdrop-blur-md transition-all duration-300 ease-out ${
+            className={`fixed left-0 mx-3 right-0 mt-2 bg-black/90 border border-white/20 rounded-sm shadow-xl overflow-hidden backdrop-blur-md transition-all duration-300 ease-out ${
               showDropdown
                 ? "opacity-100 translate-y-0 visible"
                 : "opacity-0 -translate-y-3 invisible"
@@ -91,7 +92,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-
+      <div className="h-8 sm:h-16" />
       {/* Tab Content */}
       <div className="w-full mt-6 sm:mt-8 md:mt-4 px-3 sm:px-6 z-20 text-white font-semibold text-sm sm:text-base md:text-lg select-none">
         {activeTab === "about" && <AboutMeSection />}

@@ -48,7 +48,7 @@ export function AboutMeSection() {
   ];
 
   return (
-    <section className="w-full  relative overflow-visible flex flex-col lg:flex-row items-center justify-center gap-2 pb-2 lg:gap-12 px-4 sm:px-6 md:px-12 ">
+    <section className="w-full  relative overflow-visible flex flex-col lg:flex-row items-center justify-center gap-2 pb-2 lg:gap-12 px-2 sm:px-6 md:px-12 ">
       {/* Deep black background */}
       <div aria-hidden className="absolute inset-0 bg-black z-0" />
 
@@ -129,42 +129,43 @@ export function AboutMeSection() {
         </div>
 
         {/* RIGHT IMAGE SECTION */}
-        <div className="flex-1 relative w-full max-w-md sm:max-w-lg lg:max-w-xl h-[280px] sm:h-[350px] lg:h-[450px] animate-fade-in" style={{ animationDelay: '400ms' }}>
+        {/* RIGHT IMAGE SECTION */}
+        <div
+          className="flex-1 relative w-full max-w-md sm:max-w-lg lg:max-w-xl min-h-[350px] sm:h-[400px] lg:h-[450px] mt-3 sm:mt-8 lg:mt-0 animate-fade-in"
+          style={{ animationDelay: "400ms", zIndex: 20 }}
+        >
           {/* Profile Image Container */}
-          <div className="absolute inset-0 w-full h-full group">
-            <div className="relative w-full h-full rounded-2xl lg:rounded-3xl overflow-hidden border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm transition-all duration-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
-              <img
-                src={'/profile.png'}
-                alt="Pardeep - MERN Stack Developer"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                style={{
-                  objectPosition: "center"
-                }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent transition-opacity duration-700 group-hover:from-black/30" />
-            </div>
+          <div className="relative w-full h-full rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm overflow-hidden transition-all duration-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
+            <img
+              src={"/profile.png"}
+              alt="Pardeep - MERN Stack Developer"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+              style={{
+                objectPosition: "center",
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
           </div>
 
           {/* Floating stat cards */}
           <div
-            className="absolute hidden sm:flex flex-col gap-1 top-4 right-4 lg:right-8 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
-            style={{ animationDelay: '600ms' }}
+            className="absolute flex flex-col gap-1 top-4 right-4 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "600ms" }}
           >
             <div className="text-lg lg:text-xl font-bold text-white">BCA Graduate</div>
-            {/* <div className="text-xs lg:text-sm text-gray-400">In BCA</div> */}
           </div>
 
           <div
-            className="absolute hidden sm:flex flex-col gap-0 bottom-4 left-4 lg:left-8 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
-            style={{ animationDelay: '700ms' }}
+            className="absolute flex flex-col gap-0 bottom-4 left-4 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "700ms" }}
           >
             <div className="text-lg lg:text-xl font-bold text-white">Punjab</div>
             <div className="text-xs lg:text-sm text-gray-400">Fazilka District</div>
           </div>
 
           <div
-            className="absolute hidden sm:flex flex-col gap-1 top-1/2 -translate-y-1/2 right-2 lg:right-4 bg-gradient-to-br from-purple-500/20 to-transparent backdrop-blur-xl border border-purple-500/20 rounded-xl p-3 shadow-2xl max-w-[180px] transition-all duration-500 hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
-            style={{ animationDelay: '800ms' }}
+            className="absolute flex flex-col gap-1 top-1/2 -translate-y-1/2 right-2 bg-gradient-to-br from-purple-500/20 to-transparent backdrop-blur-xl border border-purple-500/20 rounded-xl p-3 shadow-2xl max-w-[180px] transition-all duration-500 hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "800ms" }}
           >
             <div className="flex items-center gap-0 mb-1">
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -175,6 +176,7 @@ export function AboutMeSection() {
             </div>
           </div>
         </div>
+
       </div>
 
       <style jsx>{`
