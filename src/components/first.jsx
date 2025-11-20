@@ -97,6 +97,52 @@ export function AboutMeSection() {
             Hi, I'm Pardeep, a passionate MERN Stack Developer , Completed BCA from Maharaja Ranjit Singh Punjab Technical University. From Fazilka, Punjab, I turn ideas into powerful web applications.
           </p>
 
+  <div
+          className="flex-1 sm:hidden relative w-full max-w-md sm:max-w-lg lg:max-w-xl min-h-[350px] sm:h-[400px] lg:h-[450px] mt-3 sm:mt-8 lg:mt-0 animate-fade-in"
+          style={{ animationDelay: "400ms", zIndex: 20 }}
+        >
+          {/* Profile Image Container */}
+          <div className="relative w-full h-full rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm overflow-hidden transition-all duration-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
+            <img
+              src={"/profile.png"}
+              alt="Pardeep - MERN Stack Developer"
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+              style={{
+                objectPosition: "center",
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+          </div>
+
+          {/* Floating stat cards */}
+          <div
+            className="absolute flex flex-col gap-1 top-4 right-4 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "600ms" }}
+          >
+            <div className="text-lg lg:text-xl font-bold text-white">BCA Graduate</div>
+          </div>
+
+          <div
+            className="absolute flex flex-col gap-0 bottom-4 left-4 bg-black/60 backdrop-blur-xl border border-white/10 rounded-xl p-3 shadow-2xl max-w-[160px] transition-all duration-500 bg-gradient-to-r from-white/5 to-transparent hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "700ms" }}
+          >
+            <div className="text-lg lg:text-xl font-bold text-white">Punjab</div>
+            <div className="text-xs lg:text-sm text-gray-400">Fazilka District</div>
+          </div>
+
+          <div
+            className="absolute flex flex-col gap-1 top-1/2 -translate-y-1/2 right-2 bg-gradient-to-br from-purple-500/20 to-transparent backdrop-blur-xl border border-purple-500/20 rounded-xl p-3 shadow-2xl max-w-[180px] transition-all duration-500 hover:from-purple-600/30 hover:to-purple-600/10 hover:border-purple-500/40 cursor-pointer hover:scale-105 animate-float"
+            style={{ animationDelay: "800ms" }}
+          >
+            <div className="flex items-center gap-0 mb-1">
+              <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+              <span className="text-xs lg:text-sm text-gray-300 font-medium">AVAILABLE</span>
+            </div>
+            <div className="text-xs lg:text-sm text-gray-300">
+              Open to opportunities
+            </div>
+          </div>
+        </div>
           {/* Feature grid - Skills by Category */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-2 pt-2">
             {skills.map((skill, index) => (
@@ -131,7 +177,7 @@ export function AboutMeSection() {
         {/* RIGHT IMAGE SECTION */}
         {/* RIGHT IMAGE SECTION */}
         <div
-          className="flex-1 relative w-full max-w-md sm:max-w-lg lg:max-w-xl min-h-[350px] sm:h-[400px] lg:h-[450px] mt-3 sm:mt-8 lg:mt-0 animate-fade-in"
+          className="flex-1 hidden sm:flex relative w-full max-w-md sm:max-w-lg lg:max-w-xl min-h-[350px] sm:h-[400px] lg:h-[450px] mt-3 sm:mt-8 lg:mt-0 animate-fade-in"
           style={{ animationDelay: "400ms", zIndex: 20 }}
         >
           {/* Profile Image Container */}

@@ -1,6 +1,7 @@
 "use client";
 import ExperienceSection from "@/components/experince";
 import { AboutMeSection } from "@/components/first";
+import SplashCursor from "@/components/SplashCursor";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-start bg-black text-white overflow-x-hidden overflow-y-auto">
       {/* Backgrounds */}
+      <SplashCursor />
       <div aria-hidden className="absolute inset-0 bg-black" />
       <div
         aria-hidden
@@ -76,12 +78,12 @@ export default function Home() {
         </div>
 
         {/* Desktop Tabs */}
-        <div className="hidden sm:flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 bg-black/60 backdrop-blur-xl p-2 sm:p-3 rounded-full border border-white/20 mx-2">
+        <div className="hidden sm:flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 bg-black/60 backdrop-blur-xl p-2 sm:p-3 rounded-sm border border-white/20 mx-2">
           {tabs.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => setActiveTab(id)}
-              className={`px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm md:text-base rounded-full font-semibold transition duration-300 cursor-pointer ${
+              className={`px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm md:text-base rounded-sm font-semibold transition duration-300 cursor-pointer ${
                 activeTab === id
                   ? "bg-purple-600 text-white"
                   : "bg-white/10 text-gray-300 hover:bg-purple-500/20"
