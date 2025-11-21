@@ -1,0 +1,80 @@
+educatin (2022-2025 ) passed no backlog,
+collage abhishek group of institutin ( with logo),
+univercity :Maharaja Ranjit Singh Punjab Technical University, BATHINDA ,
+type : ragular ,
+cgpa 7.0 ,
+sem 1 : {
+
+    Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+1st (RG)	BCAP1101	Problem Solving using C	Theory	34	31	B
+1st (RG)	BCAP1102	Information Technology & Office Automation	Theory	35	24	C
+1st (RG)	BCAP1103	Digital Electronics	Theory	35	29	B
+1st (RG)	BCAP1104	Software Lab I (Problem Solving using C based on BCAP1-101)	Practical	52	34	A
+1st (RG)	BCAP1105	Software Lab II (Information Technology & Office Automation based on BCAP1- 102)	Practical	54	33	A
+1st (RG)	BHUM0101	Communicative English	Theory	33	15	D
+1st (RG)	BHUM0103	Human Values & Professional Ethics	Theory	33	21	C
+}
+,
+sem 2 :{
+Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+2nd (RG)	BCAP1206	Object Oriented Programming Using C ++	Theory	34	42	B+
+2nd (RG)	BCAP1207	Computer Organization & Architecture	Theory	33	27	C
+2nd (RG)	BCAP1208	Internet & its Applications	Theory	37	25	B
+2nd (RG)	BCAP1209	Multimedia and its Applications	Theory	37	19	C
+2nd (RG)	BCAP1210	Software Lab-III (Object Oriented Programming Using C ++ based on BCAP1206)	Practical	54	35	A
+2nd (RG)	BCAP1211	Software Lab-IV (Internet & Its Applications based on BCAP1208)	Practical	56	37	A+
+2nd (RG)	BMAT0204	Fundamentals of Mathematics	Theory	37	25	B
+}
+,
+sem 3 :{
+    Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+3rd (RG)	BCAP1312	Data Structures	Theory	37	37	B+
+3rd (RG)	BCAP1313	Programming in Java	Theory	36	37	B+
+3rd (RG)	BCAP1314	Discrete Structures	Theory	37	16	C
+3rd (RG)	BCAP1315	Software Lab-V (Data Structures based on BCAP1312)	Practical	58	38	A+
+3rd (RG)	BCAP1316	Software Lab-VI (Programming in Java based on BCAP1313)	Practical	55	38	A+
+3rd (RG)	BHUM0106	Technical English	Theory	38	26	B
+3rd (RG)	BCAP1356	Introduction to Microprocessors	Theory	38	20	C
+
+},
+sem 4 :{
+Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+4th (RG)	BCAP1417	Operating System	Theory	36	33	B
+4th (RG)	BCAP1418	Android Application Development	Theory	35	21	C
+4th (RG)	BCAP1419	Database Management System	Theory	35	31	B
+4th (RG)	BCAP1420	Software Lab-VII (Android Application Development based on BCAP1-418)	Practical	55	35	A
+4th (RG)	BCAP1421	Software Lab-VIII (Database Management System based on BCAP1- 419)	Practical	55	35	A
+4th (RG)	BCAP1458	Software Engineering	Theory	36	28	B
+4th (RG)	BCIE0F91	Environmental Technology & Safety	Theory	35	25	C
+4th (RG)	BMNCC0052	The Maharaja of People	Theory	94	-	A+
+
+},
+sem 5 :{
+    Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+5th (RG)	BCAP1522	Linux Administration	Theory	34	28	B
+5th (RG)	BCAP1523	Programming in ASP.Net	Theory	34	31	B
+5th (RG)	BCAP1524	Computer Networks	Theory	35	26	B
+5th (RG)	BCAP1525	Software Lab-IX(Linux Administration based on BCAP1-522 )	Practical	54	32	A
+5th (RG)	BCAP1526	Software Lab-X(Programming in ASP.Net based on BCAP1-523)	Practical	55	33	A
+5th (RG)	BCAP1561	Artificial Intelligence	Theory	35	30	B
+5th (RG)	BCSE0F94	Operating Systems	Theory	35	20	C
+},
+sem 6:{
+    Sem (Type)	SubjectCode	Subject Name	Subject Type	IM	EM	Grade / Result
+6th (RG)	BCSE0F97	Internet Web Development	Theory	36	43	B+
+6th (RG)	BCAP1627	Computer Graphics	Theory	34	37	B+
+6th (RG)	BCAP1628	Emerging Trends in Information Technology	Theory	35	24	C
+6th (RG)	BCAP1629	Major Project	Practical	57	38	A+
+6th (RG)	BCAP1630	Software Lab-XI (Computer Graphics based on BCAP1627)	Practical	54	37	A+
+6th (RG)	BESE0101	Enviornmental Studies	Theory	35	45	B+
+6th (RG)	BCAP1662	Big Data	Theory	34	33	B
+}
+
+
+
+Notes:
+The result is provisional and is to be verified with official notification.
+IM means internal marks.
+EM means external marks.   .
+
+

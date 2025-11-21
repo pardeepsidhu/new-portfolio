@@ -1,4 +1,5 @@
 "use client";
+import { ContactSection } from "@/components/contact";
 import ExperienceSection from "@/components/experince";
 import { AboutMeSection } from "@/components/first";
 import SplashCursor from "@/components/SplashCursor";
@@ -20,7 +21,7 @@ export default function Home() {
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-start bg-black text-white overflow-x-hidden overflow-y-auto">
       {/* Backgrounds */}
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <div aria-hidden className="absolute inset-0 bg-black" />
       <div
         aria-hidden
@@ -99,6 +100,7 @@ export default function Home() {
       <div className="w-full mt-6 sm:mt-8 md:mt-4 px-3 sm:px-6 z-20 text-white font-semibold text-sm sm:text-base md:text-lg select-none">
         {activeTab === "about" && <AboutMeSection />}
         {activeTab === "experience" && <ExperienceSection />}
+        {activeTab === "contact" && <ContactSection />}
       </div>
 
       {/* Animation Styles */}
