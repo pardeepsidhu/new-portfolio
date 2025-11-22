@@ -64,7 +64,7 @@ export function AboutMeSection() {
         }}
       />
 
-      <div className="relative z-10 w-full max-w-7xl flex flex-col lg:flex-row items-center justify-between gap-2 sm:gap-8">
+      <div className="relative z-10 w-full max-w-7xl sm:pt-6 flex flex-col lg:flex-row items-center justify-between gap-2 sm:gap-8">
         {/* LEFT CONTENT */}
         <div className="flex-1 max-w-xl w-full space-y-1 sm:space-y-2">
           {/* Eyebrow text */}

@@ -1,7 +1,9 @@
 "use client";
 import { ContactSection } from "@/components/contact";
+import { EducationSection } from "@/components/education";
 import ExperienceSection from "@/components/experince";
 import { AboutMeSection } from "@/components/first";
+import { ProjectsSection } from "@/components/projects";
 import SplashCursor from "@/components/SplashCursor";
 import React, { useState } from "react";
 
@@ -101,6 +103,8 @@ export default function Home() {
         {activeTab === "about" && <AboutMeSection />}
         {activeTab === "experience" && <ExperienceSection />}
         {activeTab === "contact" && <ContactSection />}
+        {activeTab === "education" && <EducationSection />}
+        {activeTab === "projects" && <ProjectsSection/>}
       </div>
 
       {/* Animation Styles */}

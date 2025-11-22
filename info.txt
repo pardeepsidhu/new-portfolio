@@ -78,3 +78,34 @@ IM means internal marks.
 EM means external marks.   .
 
 
+
+
+
+project 1 :{
+    name :"yudo-examen",
+     title: "Yudo Examen | AI Powered Online Exam Platform",
+    description: "Create, attend,auto generete test disctipt support thumbnail , disctopiton , tags ,credits, category , quesin tibel , quesion iamge , auto find multible imnages based on question in one quesion select one of them , as for you tube VI
+    video mulible vido auto find based on quesion title and descript and select one of them as qesion video,
+    auto find 3 short videos based on quesion title all three short videos suppotd for each quesin , autho denerae questin desciption , soluion ,and 4 option one of them willbe right option auto selected ",
+    techstack :{
+        forntedn :[shadcn,next.js,typescript ,tailwind css , ace code editr for ui ],
+        backend:{
+            tech:{
+                typescript,
+                nest.js,
+                 postgresql,
+                 prisma ,
+            exteral apis and servicwes :[
+                oAuth,nodemaler,
+                jwt,
+                gemeni ai,
+                youtube conent seach api,
+                custom seach engime ai google,
+                onconmplier code runner api ,
+
+            ]
+            }
+        }
+    }
+}
+
