@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import React, { useState } from "react";
 
 // Professional Projects Section
@@ -8,6 +9,7 @@ export function ProjectsSection() {
     {
       name: "Yudo Examen",
       tagline: "AI Powered Online Exam Platform",
+      link:`https://yudo-examen.vercel.app`,
       description: "Comprehensive online examination platform with AI-powered test generation, multi-format question support, and intelligent content discovery.",
       highlights: [
         "AI-powered automatic question generation with descriptions & solutions",
@@ -22,10 +24,11 @@ export function ProjectsSection() {
       frontend: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI", "Ace Code Editor"],
       backend: ["Nest.js", "TypeScript", "PostgreSQL", "Prisma"],
       services: ["OAuth", "NodeMailer", "JWT", "Gemini AI", "YouTube API", "Google Custom Search", "Code Runner API"],
-      icon: "🎓"
+      icon: <img width={30} src="/examen.webp" />
     },
     {
       name: "Yudo Scheduler",
+      link:`https://yudo-scheduler.vercel.app`,
       tagline: "Professional Task & Time Management Solution",
       description: "Streamline your workflow with comprehensive task management, time tracking, automated timesheets, analytics, and smart notifications.",
       highlights: [
@@ -65,7 +68,7 @@ export function ProjectsSection() {
       />
 
       <div className="relative z-10 container mx-auto px-2 sm:px-6 md:px-8 lg:px-12 h-full flex flex-col justify-center pt-3 sm:pt-6 pb-6 gap-4 sm:gap-6">
-        
+
         {/* Header with Project Selector */}
         <div className="flex flex-row items-end justify-between gap-3 sm:gap-4 animate-fade-in">
           <div>
@@ -75,7 +78,7 @@ export function ProjectsSection() {
                 Featured Work
               </span>
             </div> */}
-            
+
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
               My{' '}
               <span className="bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 bg-clip-text text-transparent">
@@ -92,8 +95,8 @@ export function ProjectsSection() {
                 onClick={() => setActiveProject(index)}
                 className={`
                   flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-300
-                  ${activeProject === index 
-                    ? 'bg-gradient-to-r from-purple-600 to-purple-500 text-white shadow-lg shadow-purple-500/30' 
+                  ${activeProject === index
+                    ? 'bg-gradient-to-r from-purple-600 to-purple-500 text-white shadow-lg shadow-purple-500/30'
                     : 'text-gray-400 hover:text-white bg-white/5 border border-white/10 hover:border-purple-500/40'
                   }
                 `}
@@ -107,7 +110,7 @@ export function ProjectsSection() {
 
         {/* Project Content */}
         <div className="grid lg:grid-cols-[1.2fr,1fr] gap-4 sm:gap-6 animate-slide-up">
-          
+
           {/* LEFT - Project Details */}
           <div className="space-y-3 sm:space-y-4">
             <div>
@@ -116,9 +119,19 @@ export function ProjectsSection() {
                   {current.icon}
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white flex items-center gap-2">
                     {current.name}
+                    <a
+                      href={current.link} // 🔗 replace with your real link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors duration-300"
+                    >
+                      <ExternalLink className="text-purple-400" />
+
+                    </a>
                   </h3>
+
                   <p className="text-xs sm:text-sm text-purple-400 font-medium">
                     {current.tagline}
                   </p>
@@ -155,7 +168,7 @@ export function ProjectsSection() {
 
           {/* RIGHT - Tech Stack */}
           <div className="space-y-3 sm:space-y-4">
-            
+
             {/* Frontend Technologies */}
             <div className="space-y-2">
               <div className="flex items-center gap-2 mb-2">
@@ -222,15 +235,7 @@ export function ProjectsSection() {
               </div>
             </div>
 
-            {/* Action Buttons */}
-            <div className="flex flex-wrap gap-2 pt-2">
-              <button className="flex-1 sm:flex-none px-4 sm:px-5 py-2 sm:py-2.5 bg-gradient-to-r from-purple-600 to-purple-500 text-white text-xs sm:text-sm font-semibold rounded-lg hover:from-purple-500 hover:to-purple-400 transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50 hover:scale-105">
-                View Live Demo
-              </button>
-              <button className="flex-1 sm:flex-none px-4 sm:px-5 py-2 sm:py-2.5 border border-white/20 text-white text-xs sm:text-sm font-semibold rounded-lg hover:bg-white/5 hover:border-purple-500/40 transition-all duration-300">
-                View Code
-              </button>
-            </div>
+
           </div>
         </div>
       </div>

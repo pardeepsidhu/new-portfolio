@@ -86,7 +86,22 @@ project 1 :{
      title: "Yudo Examen | AI Powered Online Exam Platform",
     description: "Create, attend,auto generete test disctipt support thumbnail , disctopiton , tags ,credits, category , quesin tibel , quesion iamge , auto find multible imnages based on question in one quesion select one of them , as for you tube VI
     video mulible vido auto find based on quesion title and descript and select one of them as qesion video,
-    auto find 3 short videos based on quesion title all three short videos suppotd for each quesin , autho denerae questin desciption , soluion ,and 4 option one of them willbe right option auto selected ",
+    auto find 3 short videos based on quesion title all three short videos suppotd for each quesin , autho denerae questin desciption , soluion ,and 4 option one of them willbe right option auto selected ,
+    auto generate code based on question title and description , mutible coding languates supported  
+     
+                        JavaScript
+                        TypeScript
+                        Python
+                        Java
+                        C++
+                        Rust
+                        Swift,
+
+                        two databases  :[postgrtesql,mongodb],
+
+                        one test have multiple quesions ,
+                        fully proffessional and resposive ui
+                        ",
     techstack :{
         forntedn :[shadcn,next.js,typescript ,tailwind css , ace code editr for ui ],
         backend:{
@@ -107,5 +122,40 @@ project 1 :{
             }
         }
     }
+}
+
+
+project 2 :{
+    title: "Yudo Scheduler | Professional Task & Time Management Solution",
+  description:
+    "Streamline your workflow with Yudo Scheduler - the comprehensive task management platform featuring time tracking, priority management, automated timesheets, analytics, and smart notifications via Telegram and email.",
+
+    features:[
+    "task management",
+    "time tracking",
+    "productivity tools",
+    "timesheet generation",
+    "project analytics",
+    "task prioritization",
+    "telegram notifications",
+    "workflow optimization",
+    "professional scheduler",
+    "time management solution",
+  ]
+  ,
+  frontend :{
+    typescript, next.js , email login , quick login link ,
+    plotly.js,
+    shadcn ,
+    tailwind ,
+    dashboard , analhytics ,
+    profile page,
+    taligram link,
+    reminder on telegram and email
+  }
+  backend:{
+    node.js ,express.js , mongodb, mongoose ,
+    jwt , taligram bot , node maller , node scheduler, 
+  }
 }
 
