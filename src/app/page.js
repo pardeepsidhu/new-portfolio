@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-start bg-black text-white overflow-x-hidden overflow-y-auto">
       {/* Backgrounds */}
-      {/* <SplashCursor /> */}
+      <SplashCursor />
       <div aria-hidden className="absolute inset-0 bg-black" />
       <div
         aria-hidden

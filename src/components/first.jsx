@@ -102,7 +102,7 @@ export function AboutMeSection() {
           style={{ animationDelay: "400ms", zIndex: 20 }}
         >
           {/* Profile Image Container */}
-          <div className="relative w-full h-full rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent backdrop-blur-sm overflow-hidden transition-all duration-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
+          <div className="relative w-full h-full rounded-2xl border border-white/10  backdrop-blur-sm overflow-hidden transition-all duration-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
             <img
               src={"/profile.png"}
               alt="Pardeep - MERN Stack Developer"

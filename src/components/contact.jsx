@@ -41,7 +41,7 @@ export function ContactSection() {
     };
 
     await toast.promise(
-      fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/sendmail`, {
+      fetch(`https://emails-kohl.vercel.app/api/v1/sendmail`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(mailBody),
@@ -145,7 +145,7 @@ export function ContactSection() {
     },
     {
       name: "Resume",
-      url:`${process.env.NEXT_PUBLIC_RESUME_URL}` ,
+      url:`https://drive.google.com/file/d/1v2X708Lo4mnnoSWBwHi41c2h_Bdn1Akc/view?usp=sharing` ,
       color: "hover:text-green-400",
       icon: (
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
