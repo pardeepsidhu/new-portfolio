@@ -145,7 +145,7 @@ export function ContactSection() {
     },
     {
       name: "Resume",
-      url:`https://drive.google.com/file/d/1v2X708Lo4mnnoSWBwHi41c2h_Bdn1Akc/view?usp=sharing` ,
+      url:`https://drive.google.com/file/d/1Wd-TIyUstNCVPW-JcODkyaRtA6Sm4tN4/view?usp=sharing` ,
       color: "hover:text-green-400",
       icon: (
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

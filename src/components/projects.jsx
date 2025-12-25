@@ -44,7 +44,7 @@ export function ProjectsSection() {
       frontend: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI", "Plotly.js"],
       backend: ["Node.js", "Express.js", "MongoDB", "Mongoose"],
       services: ["JWT", "Telegram Bot API", "NodeMailer", "Node Scheduler"],
-      icon: "📅"
+      icon: <img width={30} src="/scheduler.png" />
     }
   ];
 

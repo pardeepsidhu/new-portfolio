@@ -4,7 +4,7 @@ import { EducationSection } from "@/components/education";
 import ExperienceSection from "@/components/experince";
 import { AboutMeSection } from "@/components/first";
 import { ProjectsSection } from "@/components/projects";
-import SplashCursor from "@/components/SplashCursor";
+// import SplashCursor from "@/components/SplashCursor";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-start bg-black text-white overflow-x-hidden overflow-y-auto">
       {/* Backgrounds */}
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <div aria-hidden className="absolute inset-0 bg-black" />
       <div
         aria-hidden
